@@ -1,4 +1,4 @@
-/*import React from 'react'
+import React from 'react'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
@@ -8,6 +8,7 @@ import Portfolio from './components/Portfolio/Portfolio'
 import Testimonials from './components/Testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+
 const App = () => {
   return (
     <>
@@ -20,13 +21,13 @@ const App = () => {
       <Testimonials />
       <Contact />
       <Footer />
-    </>
+    </>   
   )
 }
 
-export default App*/
+export default App
 
-import React from 'react'
+/*import React from 'react-dom'
 
 const App = () => {
   return (
@@ -34,5 +35,5 @@ const App = () => {
   )
 }
 
-export default App
+export default App*/
 
