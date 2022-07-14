@@ -1,4 +1,4 @@
-import React from 'react-dom'
+import React from 'react';
 import './Header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
@@ -20,4 +20,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;
