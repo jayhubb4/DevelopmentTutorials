@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
@@ -24,4 +24,15 @@ const App = () => {
   )
 }
 
+export default App*/
+
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>App</div>
+  )
+}
+
 export default App
+
