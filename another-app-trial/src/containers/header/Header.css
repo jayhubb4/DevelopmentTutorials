@@ -71,7 +71,13 @@
     padding: 0 1rem;
     border: none;
     border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.5s;
+}
+
+.gpt3__header-content__input button:hover {
+    background: white;
+    color: var(--color-footer);
 }
 
 .gpt3__header-content__people {
@@ -101,7 +107,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    opacity: 40%;
+ }
 
 .gpt3__header-image img {
     width: 100%;

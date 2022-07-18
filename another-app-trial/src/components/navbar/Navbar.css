@@ -61,6 +61,12 @@
     border: none;
     outline: none;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.gpt3__navbar-sign button:hover {
+    background-color: white;
+    color: var(--color-footer);
 }
 
 .gpt3__navbar-menu {
