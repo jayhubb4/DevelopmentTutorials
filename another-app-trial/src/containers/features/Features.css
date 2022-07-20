@@ -13,6 +13,7 @@
     flex-direction: column;
     text-align: left;
     margin-right: 5rem;
+    padding: 70px;
 }
 
 .gpt3__features-heading h1 {
