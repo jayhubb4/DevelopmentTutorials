@@ -50,6 +50,16 @@
     color: var(--color-grey);
 }
 
+.app__aboutus-content_history button,
+.app__aboutus-content_about button {
+    transition: 0.3s;
+}
+
+.app__aboutus-content_history button:hover,
+.app__aboutus-content_about button:hover {
+    background: var(--color-white);
+    color: var(--color--black);
+}
 
 /*********Screen Sizes (Always use Max width for different screen sizes. ex. max width is 0-650px min width is 650px-0) *********/
 

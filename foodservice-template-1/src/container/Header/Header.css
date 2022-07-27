@@ -14,3 +14,12 @@
 .app__header-img img {
     width: 80%;
 }
+
+.app__wrapper_info button {
+    transition: 0.3s;
+}
+
+.app__wrapper_info button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
