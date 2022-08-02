@@ -13,6 +13,7 @@
     flex-direction: column;
     min-width: 500px;
     padding-right: 2rem;
+    margin-left: 5%;
 }
 
 .app__gallery-content button {
