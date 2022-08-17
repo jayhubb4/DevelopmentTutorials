@@ -44,6 +44,10 @@ const Footer = () => {
           <img src={images.mobile} alt="mobile" />
           <a href="tel: +1 (205) 612-2694" className='p-text'>+1 (205) 612-2694</a>
         </div>
+        <div className='app__footer-card'>
+          <img src={images.hblogo} alt="hblogo" />
+          <a href="tel: +1 (205) 612-2694" className='p-text'>Request a Quote!</a> {/* Change href to honeybook link when created */}
+        </div>
       </div>
 
     {!isFormSubmitted ?
@@ -99,6 +103,6 @@ const Footer = () => {
 
 export default AppWrap(
   MotionWrap(Footer, 'app__footer'),
-  'contact',
+  'contact / quote',
   'app__whitebg'
 )
