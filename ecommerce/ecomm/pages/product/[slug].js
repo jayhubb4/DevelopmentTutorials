@@ -24,6 +24,7 @@ const { decQty, incQty, qty, onAdd } = useStateContext();
                 <div className='small-images-container'>
                     {image?.map((item, i) => (
                         <img
+                            key={index}
                             src={urlFor(item)}
                             className={i === index ? 'small-image selected-image' : 'small-image'}
                             onMouseEnter={() => setIndex(i)}
