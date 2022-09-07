@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className='navbar-container'>
       <p className='logo'>
         <Link href='/'>
-          CodeScaping Electronics *Ecommerce Example Webpage*
+          .com Electronics *Ecommerce Example Website*
         </Link>
       </p>
       <button
