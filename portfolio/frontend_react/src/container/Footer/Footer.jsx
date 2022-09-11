@@ -34,16 +34,16 @@ const Footer = () => {
   }
   return (
     <>
-      <h2 className='head-text'>Take a coffee & chat with me</h2>
+      <h2 className='head-text'>Grab some coffee & chat with me</h2>
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
           <img src={images.email} alt="email" />
           <a href="mailto:codescaping@gmail.com" className='p-text'>codescaping@gmail.com</a>
         </div>
-        <div className='app__footer-card'>
+        {/*<div className='app__footer-card'>
           <img src={images.mobile} alt="mobile" />
           <a href="tel: +1 (205) 612-2694" className='p-text'>+1 (205) 612-2694</a>
-        </div>
+        </div>*/}
         <div className='app__footer-card'>
           <img src={images.hblogo} alt="hblogo" />
           <a href="tel: +1 (205) 612-2694" className='p-text'>Request a Quote!</a> {/* Change href to honeybook link when created */}
