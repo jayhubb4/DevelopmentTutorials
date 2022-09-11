@@ -35,6 +35,7 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import hblogo from '../assets/hblogo.png';
+import dotcombg from '../assets/dotcombg.png';
 
 export default {
   email,
@@ -71,4 +72,5 @@ export default {
   skype,
   spotify,
   hblogo,
+  dotcombg,
 };
