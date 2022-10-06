@@ -38,7 +38,7 @@ const Footer = () => {
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
           <img src={images.email} alt="email" />
-          <a href="mailto:codescaping@gmail.com" className='p-text'>codescaping@gmail.com</a>
+          <a href="mailto:dotcomdv@gmail.com" className='p-text'>dotcomdv@gmail.com</a>
         </div>
         {/*<div className='app__footer-card'>
           <img src={images.mobile} alt="mobile" />
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>*/}
         <div className='app__footer-card'>
           <img src={images.hblogo} alt="hblogo" />
-          <a href="tel: +1 (205) 612-2694" className='p-text'>Request a Quote!</a> {/* Change href to honeybook link when created */}
+          <a href="https://www.honeybook.com/widget/com_234570/cf_id/633b97b0eb9083002f0cd2ac" className='p-text'>Request a Quote!</a> {/* Change href to honeybook link when created */}
         </div>
       </div>
 

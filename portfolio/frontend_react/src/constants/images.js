@@ -25,6 +25,7 @@ import about04 from '../assets/about04.png';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
+import mylogo from '../assets/mylogo.png';
 import logo from '../assets/logo.png';
 
 import adidas from '../assets/adidas.png';
@@ -35,6 +36,7 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import hblogo from '../assets/hblogo.png';
+import colorlogo from '../assets/colorlogo.png';
 
 export default {
   email,
@@ -62,7 +64,7 @@ export default {
   about04,
   profile,
   circle,
-  logo,
+  mylogo,
   adidas,
   amazon,
   asus,
@@ -71,4 +73,5 @@ export default {
   skype,
   spotify,
   hblogo,
+  colorlogo,
 };

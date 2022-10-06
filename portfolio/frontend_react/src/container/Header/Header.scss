@@ -178,15 +178,19 @@
     position: relative;
 
     img {
-        width: 50%;
+        width: 40%;
         object-fit: contain;
         z-index: 1;
-        margin-right: 23.5%;
+        margin-right: 29.5%;
+        margin-bottom: 34%;
         position: relative;
+        border-radius: 50%;
+        align-items: center;
         }
 
     .overlay_circle {
         position: absolute;
+        margin-bottom: 5%;
         left: 0;
         right: 0;
         bottom: 0;
