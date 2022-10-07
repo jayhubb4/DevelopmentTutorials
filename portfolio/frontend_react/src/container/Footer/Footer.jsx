@@ -46,7 +46,11 @@ const Footer = () => {
         </div>*/}
         <div className='app__footer-card'>
           <img src={images.hblogo} alt="hblogo" />
-          <a href="https://www.honeybook.com/widget/com_234570/cf_id/633b97b0eb9083002f0cd2ac" className='p-text'>Request a Quote!</a> {/* Change href to honeybook link when created */}
+          <a href="https://www.honeybook.com/widget/com_234570/cf_id/633b97b0eb9083002f0cd2ac" className='p-text'>Request a Quote Here!</a> 
+        </div>
+        <div className='app__footer-card'>
+          <img src={images.hblogo} alt="hblogo" />
+          <a href="https://dotcom.hbportal.co/app/" className='p-text'>Current Clients Access Your Portal Here</a> 
         </div>
       </div>
 
@@ -94,7 +98,7 @@ const Footer = () => {
         <h3
         className='head-text'
         >
-        Thank you for getting in touch!
+        Thank you for getting in touch! Please request a quote and we can get rolling!
         </h3>
       </div>}
     </>
@@ -103,6 +107,6 @@ const Footer = () => {
 
 export default AppWrap(
   MotionWrap(Footer, 'app__footer'),
-  'contact / quote',
+  'contact / clients',
   'app__whitebg'
 )

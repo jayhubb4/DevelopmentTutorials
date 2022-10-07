@@ -27,6 +27,7 @@ import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import mylogo from '../assets/mylogo.png';
 import logo from '../assets/logo.png';
+import mylogo2 from '../assets/mylogo2.png';
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
@@ -73,5 +74,7 @@ export default {
   skype,
   spotify,
   hblogo,
+  logo,
   colorlogo,
+  mylogo2
 };
