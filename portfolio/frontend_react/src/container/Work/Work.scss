@@ -134,8 +134,15 @@
         margin-top: 1rem;
         line-height: 1.5;
     }
+    
+    @media screen and (min-width: 900px) {
+       a {
+        display: none;
+        text-decoration: none;
+       }  
+    }
 
-    .app__work-tag {
+.app__work-tag {
         position: absolute;
         padding: 0.5rem 1rem;
         border-radius: 10px;

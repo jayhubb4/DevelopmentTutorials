@@ -96,7 +96,7 @@ const Work = () => {
             <div className="app__work-content app__flex">
               <h4 className="bold-text">{work.title}</h4>
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
-
+              <a href={work.projectLink} className="p-text" style={{ marginTop: 25, textDecoration: 'none' }}>Click Here to View</a>
               <div className="app__work-tag app__flex">
                 <p className="p-text">{work.tags[0]}</p>
               </div>
