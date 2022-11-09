@@ -138,19 +138,19 @@
         div:nth-child(1) {
             width: 400px;
             height: 400px;
-            align-items: flex-end;
+            align-items: center;
         }
     
         div:nth-child(2) {
             width: 170px;
             height: 170px;
-            align-items: flex-end;
+            align-items: center;
         }
     
         div:nth-child(3) {
             width: 200px;
-            height: 2000px;
-            align-items: flex-end;
+            height: 200px;
+            align-items: center;
         }
     }
 
@@ -163,7 +163,7 @@
 
         div {
             margin: 1rem;
-            align-items: flex-end;
+            align-items: center;
         }
     }
 }
@@ -183,10 +183,31 @@
         z-index: 1;
         margin-right: 29.5%;
         margin-bottom: 34%;
+        margin-top: 28%;
         position: relative;
         border-radius: 50%;
         align-items: center;
-        }
+        
+        @media screen and (min-width: 900px) {
+            margin-bottom: 40%;
+            margin-top: 37%;
+            position: relative;
+            }
+
+        @media screen and (min-width: 1440px) {
+            margin-bottom: 70%;
+            margin-top: 37%;
+            position: relative;
+            }
+
+        @media screen and (min-width: 2500px) {
+            margin-bottom: 70%;
+            margin-top: 37%;
+            position: relative;
+            }
+        
+    
+    }
 
     .overlay_circle {
         position: absolute;
