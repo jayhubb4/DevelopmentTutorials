@@ -1,0 +1,35 @@
+	aPosMeasurPairs_ALIGNERBOT_Single	: ARRAY [1..20, 0..1] OF REAL 	:= [4000,   -12, // fake numbers to prevent it from pulling or pushing quick hopefully
+																			4999,   -10,
+																			5024,   -7.5,
+																			5869,   -5,
+																			7975,   -2.5,
+																			12240,   0,
+																			14773,  2.5,
+																			20000,   4, // fake numbers to prevent it from pulling or pushing quick hopefully
+																			0(0)]; // RAW AI, mm conversion, measured from knife of sewing maching
+	nALIGNERBOT_Single_Size				: INT							:= 8;
+	
+	// ****************************************************************************************************************************************************																		
+	// !! use sewn edge for calibration
+	aPosMeasurPairs_ALIGNERBOT_Double	: ARRAY [1..20, 0..1] OF REAL 	:= [4000,   -7.5, // fake numbers to prevent it from pulling or pushing quick hopefully
+																			6980,   -5,
+																			9669,  -2.5,
+																			12215,   0,
+																			14302,  2.5,
+																			28000,  4, // fake numbers to prevent it from pulling or pushing quick hopefully
+																			0(0)]; // RAW AI, mm conversion, measured from knife of sewing maching
+	nALIGNERBOT_Double_Size				: INT							:= 6;
+	
+	// ****************************************************************************************************************************************************	
+																
+	aPosMeasurPairs_ALIGNERTOP			: ARRAY [1..20, 0..1] OF REAL 	:= [2000,   -12, // fake numbers to prevent it from pulling or pushing quick hopefully
+																			5350,   -10,
+																			6875,   -7.5,
+																			8450,   -5,
+																			11280,  -2.5,
+																			15260,   0,
+																			17125,  2.5,
+																			25000,  4, // fake numbers to prevent it from pulling or pushing quick hopefully
+																			0(0)]; // RAW AI, mm conversion, measured from knife of sewing maching
+	nALIGNERTOP_Size					: INT							:= 8;
+																	
