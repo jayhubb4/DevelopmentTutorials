@@ -10,10 +10,10 @@ import { playPause, setActiveSong } from '../redux/features/playerSlice';
 import { useGetTopChartsQuery } from '../redux/services/shazamCore';
 
 const TopChartCard = () => (
-  <div classname="w-full flex flex-row items-center hover:bg-[#4c426e] py-2 p-4 round-lg curosr-pointer mb-2">
+  <div className="w-full flex flex-row items-center hover:bg-[#4c426e] py-2 p-4 round-lg curosr-pointer mb-2">
     {song.title}
   </div>
-)
+);
 
 const TopPlay = ({ song, i }) => {
   const dispatch = useDispatch();
@@ -37,18 +37,18 @@ const TopPlay = ({ song, i }) => {
   };
 
   return (
-    <div 
+    <div
       ref={divRef}
-      classname="xl:ml-6 ml-0 xl:mb-0 mb-6 flex-1 xl:max-w-[500px] max-w-full flex flex-col"
+      className="xl:ml-6 ml-0 xl:mb-0 mb-6 flex-1 xl:max-w-[500px] max-w-full flex flex-col"
     >
-      <div classname="w-full flex flex-col">
-        <div classname="flex flex-row justify-between items-center">
-          <h2 classname="text-white font-bold text-2xl">Top Charts</h2>
+      <div className="w-full flex flex-col">
+        <div className="flex flex-row justify-between items-center">
+          <h2 className="text-white font-bold text-2xl">Top Charts</h2>
           <Link to="/top-charts">
-            <p classname="text-gray-300 text-base cursor-pointer">See more</p>
+            <p className="text-gray-300 text-base cursor-pointer">See more</p>
           </Link>
         </div>
-        <div classname="mt-4 flex-col gap-1">
+        <div className="mt-4 flex-col gap-1">
           {topPlays?.map((song, i) => (
             <TopChartCard
               key={song.key}
@@ -59,11 +59,11 @@ const TopPlay = ({ song, i }) => {
         </div>
       </div>
 
-      <div classname="w-full flex flex-col mt-8">
-        <div classname="flex flex-row justify-between items-center">
-          <h2 classname="text-white font-bold text-2xl">Top Artists</h2>
+      <div className="w-full flex flex-col mt-8">
+        <div className="flex flex-row justify-between items-center">
+          <h2 className="text-white font-bold text-2xl">Top Artists</h2>
           <Link to="/top-artists">
-            <p classname="text-gray-300 text-base cursor-pointer">See more</p>
+            <p className="text-gray-300 text-base cursor-pointer">See more</p>
           </Link>
         </div>
 
@@ -83,17 +83,16 @@ const TopPlay = ({ song, i }) => {
               className="shadow-lg rounded-full animate-slider-right"
             >
               <Link to={`/artists/${song?.artists[0].adamid}`}>
-                <img 
-                  src={song?.images.background} 
+                <img
+                  src={song?.images.background}
                   alt="name"
                   className="rounded-full w-full object-cover"
                 />
               </Link>
             </SwiperSlide>
           ))}
-        </Swiper>    
+        </Swiper>
       </div>
-      
     </div>
   );
 };
