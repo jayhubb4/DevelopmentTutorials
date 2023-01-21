@@ -5,6 +5,7 @@ import schemas from './schemas/schema';
 
 export default defineConfig({
   title: "portfolio",
+  basePath: '/sanity',
   projectId: "g8tjpmqr",
   dataset: "production",
   plugins: [deskTool()],
